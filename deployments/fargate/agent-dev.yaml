@@ -30,9 +30,9 @@ monitors:
   - type: signalfx-forwarder
     listenAddress: 0.0.0.0:9080
     # Used to add a tag to spans missing it
-    #defaultSpanTags:
+    defaultSpanTags:
      # Set the environment filter in SignalFx
-     #environment: "YOUR_ENVIRONMENT"
+     environment: "DEV"
     # Used to add and override a tag on a span
     #extraSpanTags:
      #SPAN_TAG_KEY: "SPAN_TAG_VALUE"
